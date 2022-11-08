@@ -13,14 +13,7 @@
 
     <button id="connectButton" onclick="connect()">Connect!</button>
 
-    <script>
-        async function connect() {
-            if (typeof window.ethereum !== "undefined") {
-                await window.ethereum.request({ method: "eth_requestAccounts" })
-                document.getElementById("connectButton").innerHTML = "Connected"
-            }
-        }
-    </script>
+
 </body>
 
 </html>
