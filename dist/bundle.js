@@ -198,6 +198,23 @@
             ];
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
             const provider = new ethers.providers.Web3Provider(window.ethereum)
 
             async function connect() {
@@ -242,6 +259,30 @@
             }
 
             module.exports = { connect, bet, claim, };
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
